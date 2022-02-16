@@ -106,13 +106,13 @@ nav ul li a:focus {
 
 /* Requirements 6-10 here: */
 .intro {
+  background-color: #858585;
   background-image: url("../images/header.jpg");
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #858585;
 }
 
 .about, .clients, .method, .contact {
@@ -133,6 +133,7 @@ img {
   margin: auto;
   max-height: 25vh;
   overflow: scroll;
+  align-self: center;
 }
 
 .about-image, .about {
